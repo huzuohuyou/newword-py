@@ -14,7 +14,7 @@ x=(c_1c_2...c_n), 判断成词的依据：
 # 使用
 当前只测试 Python3。使用方法
 ```bash
- python3 newword.py input_file output_file [newword.conf]
+ python newword.py ct.txt result.txt
 ```
 
 默认字符编码为 UTF8, 如果字符编码为 GBK, 则需指定配置文件，及对应的分隔符。
